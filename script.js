@@ -27,12 +27,10 @@ const getApi = async (url) => {
   
     window.ononline = function () {
       CheckOnlineStatus("online");
-      location.reload();
     };
   
     window.onoffline = function () {
       CheckOnlineStatus("offline");
-      location.reload();
     };
   }
   
